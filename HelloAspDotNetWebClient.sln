@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloAspDotNetWebClient", "HelloAspDotNetWebClient\HelloAspDotNetWebClient.csproj", "{80BA4D84-8000-44E0-AF47-B551E3044CCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloAspDotNetWebClient", "HelloAspDotNetWebClient\HelloAspDotNetWebClient.csproj", "{80BA4D84-8000-44E0-AF47-B551E3044CCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloBlazorApp", "HelloBlazorApp\HelloBlazorApp.csproj", "{8E57659C-814A-41B5-9F7E-A909291A7C65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloBlazorApp", "HelloBlazorApp\HelloBlazorApp.csproj", "{8E57659C-814A-41B5-9F7E-A909291A7C65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

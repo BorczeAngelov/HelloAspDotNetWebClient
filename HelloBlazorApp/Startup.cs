@@ -1,4 +1,5 @@
 using HelloBlazorApp.Data;
+using HelloBlazorApp.SignalRHubs;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Hosting;
@@ -29,6 +30,7 @@ namespace HelloBlazorApp
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();
+            services.AddSingleton<DemoSignalRHub>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

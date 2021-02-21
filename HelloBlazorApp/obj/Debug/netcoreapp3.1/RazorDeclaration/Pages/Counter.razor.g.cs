@@ -75,6 +75,20 @@ using HelloBlazorApp.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\borcz\source\repos\HelloAspDotNetWebClient\HelloBlazorApp\Pages\Counter.razor"
+using HelloBlazorApp.Data;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 4 "C:\Users\borcz\source\repos\HelloAspDotNetWebClient\HelloBlazorApp\Pages\Counter.razor"
+using HelloBlazorApp.SignalRHubs;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/counter")]
     public partial class Counter : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -84,9 +98,26 @@ using HelloBlazorApp.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 9 "C:\Users\borcz\source\repos\HelloAspDotNetWebClient\HelloBlazorApp\Pages\Counter.razor"
+#line 14 "C:\Users\borcz\source\repos\HelloAspDotNetWebClient\HelloBlazorApp\Pages\Counter.razor"
        
     private int currentCount = 0;
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        var demoSignalRHub = new DemoSignalRHub();
+        demoSignalRHub.LoadOrganisation += DemoSignalRHub_LoadOrganisation;
+
+        await demoSignalRHub.ServerConnection.StartAsync();
+    }
+
+
+    private void DemoSignalRHub_LoadOrganisation(Organisation obj)
+    {
+        currentCount = obj.Employees.Count;
+        IncrementCount();
+    }
+
 
     private void IncrementCount()
     {
@@ -96,6 +127,7 @@ using HelloBlazorApp.Shared;
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private DemoSignalRHub DemoSignalRHub { get; set; }
     }
 }
 #pragma warning restore 1591

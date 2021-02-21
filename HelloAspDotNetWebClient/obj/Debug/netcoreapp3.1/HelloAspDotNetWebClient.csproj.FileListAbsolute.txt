@@ -8,7 +8,6 @@ C:\Users\borcz\source\repos\HelloAspDotNetWebClient\HelloAspDotNetWebClient\bin\
 C:\Users\borcz\source\repos\HelloAspDotNetWebClient\HelloAspDotNetWebClient\bin\Debug\netcoreapp3.1\HelloAspDotNetWebClient.pdb
 C:\Users\borcz\source\repos\HelloAspDotNetWebClient\HelloAspDotNetWebClient\bin\Debug\netcoreapp3.1\HelloAspDotNetWebClient.Views.dll
 C:\Users\borcz\source\repos\HelloAspDotNetWebClient\HelloAspDotNetWebClient\bin\Debug\netcoreapp3.1\HelloAspDotNetWebClient.Views.pdb
-C:\Users\borcz\source\repos\HelloAspDotNetWebClient\HelloAspDotNetWebClient\obj\Debug\netcoreapp3.1\HelloAspDotNetWebClient.csprojAssemblyReference.cache
 C:\Users\borcz\source\repos\HelloAspDotNetWebClient\HelloAspDotNetWebClient\obj\Debug\netcoreapp3.1\HelloAspDotNetWebClient.AssemblyInfoInputs.cache
 C:\Users\borcz\source\repos\HelloAspDotNetWebClient\HelloAspDotNetWebClient\obj\Debug\netcoreapp3.1\HelloAspDotNetWebClient.AssemblyInfo.cs
 C:\Users\borcz\source\repos\HelloAspDotNetWebClient\HelloAspDotNetWebClient\obj\Debug\netcoreapp3.1\HelloAspDotNetWebClient.csproj.CoreCompileInputs.cache

@@ -1,8 +1,28 @@
 {
   "version": 2,
-  "dgSpecHash": "xC1XB6BflGVqg5YD4V5x1+wRqXKkQXfIx5GzeeO3hpYalatTt6WMEwY2jw6EjlCiroSdDRwuT1Ni63PUIGLBaw==",
+  "dgSpecHash": "0voavMa5SHCxjGB7OzFNN+2/zFjSunxBVUe6oyH6S8hMiYiMfdeBUgW5CPW4y+0HL473yCC0V0SpPiFdnwp5HQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\borcz\\source\\repos\\HelloAspDotNetWebClient\\HelloBlazorApp\\HelloBlazorApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\borcz\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\3.1.6\\microsoft.aspnetcore.connections.abstractions.3.1.6.nupkg.sha512",
+    "C:\\Users\\borcz\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\3.1.6\\microsoft.aspnetcore.http.connections.client.3.1.6.nupkg.sha512",
+    "C:\\Users\\borcz\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common\\3.1.6\\microsoft.aspnetcore.http.connections.common.3.1.6.nupkg.sha512",
+    "C:\\Users\\borcz\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.1.6\\microsoft.aspnetcore.http.features.3.1.6.nupkg.sha512",
+    "C:\\Users\\borcz\\.nuget\\packages\\microsoft.aspnetcore.signalr.client\\3.1.6\\microsoft.aspnetcore.signalr.client.3.1.6.nupkg.sha512",
+    "C:\\Users\\borcz\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\3.1.6\\microsoft.aspnetcore.signalr.client.core.3.1.6.nupkg.sha512",
+    "C:\\Users\\borcz\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\3.1.6\\microsoft.aspnetcore.signalr.common.3.1.6.nupkg.sha512",
+    "C:\\Users\\borcz\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\3.1.6\\microsoft.aspnetcore.signalr.protocols.json.3.1.6.nupkg.sha512",
+    "C:\\Users\\borcz\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.6\\microsoft.extensions.configuration.3.1.6.nupkg.sha512",
+    "C:\\Users\\borcz\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.6\\microsoft.extensions.configuration.abstractions.3.1.6.nupkg.sha512",
+    "C:\\Users\\borcz\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.6\\microsoft.extensions.configuration.binder.3.1.6.nupkg.sha512",
+    "C:\\Users\\borcz\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.6\\microsoft.extensions.dependencyinjection.3.1.6.nupkg.sha512",
+    "C:\\Users\\borcz\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.6\\microsoft.extensions.dependencyinjection.abstractions.3.1.6.nupkg.sha512",
+    "C:\\Users\\borcz\\.nuget\\packages\\microsoft.extensions.logging\\3.1.6\\microsoft.extensions.logging.3.1.6.nupkg.sha512",
+    "C:\\Users\\borcz\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.6\\microsoft.extensions.logging.abstractions.3.1.6.nupkg.sha512",
+    "C:\\Users\\borcz\\.nuget\\packages\\microsoft.extensions.options\\3.1.6\\microsoft.extensions.options.3.1.6.nupkg.sha512",
+    "C:\\Users\\borcz\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6\\microsoft.extensions.primitives.3.1.6.nupkg.sha512",
+    "C:\\Users\\borcz\\.nuget\\packages\\system.io.pipelines\\4.7.1\\system.io.pipelines.4.7.1.nupkg.sha512",
+    "C:\\Users\\borcz\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
   "logs": []
 }
