@@ -27,7 +27,7 @@
     private void DemoSignalRHub_LoadOrganisation(Organisation obj)
     {
         currentCount = obj.Employees.Count;
-        IncrementCount();
+        this.StateHasChanged();       
     }
 
 
